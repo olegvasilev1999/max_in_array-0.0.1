@@ -12,7 +12,7 @@ int main()
 	int max,i,a[10];
 
 
-	for (string string; getline(cin, string); ) {
+	for (string string; getline(cin, string) ; ) {
 		istringstream stream(string);
 		bool failure = false;
 		for (int i = 1; i <= 10; ++i) {
@@ -31,6 +31,7 @@ int main()
 				}
 			}
 			cout << max << endl;
+			break;
 		}
 		else {
 			cout << "An error has occured while reading numbers from line" << endl;

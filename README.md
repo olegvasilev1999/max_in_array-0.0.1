@@ -15,7 +15,7 @@ int main()
 	for (string string; getline(cin, string) ; ) {
 		istringstream stream(string);
 		bool failure = false;
-		for (int i = 1; i <= 10; ++i) {
+		for (int i = 0; i < 10; ++i) {
 			if (!(stream >> a[i])) {
 				failure = true;
 				break;
@@ -25,7 +25,7 @@ int main()
 		max = a[1];
 
 		if (!failure) {
-			for (int i = 1; i <= 10; ++i) {
+			for (int i = 0; i < 10; ++i) {
 				if (a[i] > max) {
 					max = a[i];
 				}

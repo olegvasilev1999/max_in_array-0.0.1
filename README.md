@@ -1,8 +1,8 @@
 # max_in_array-0.0.1
 
 #include "stdafx.h"
-#include <iostream>
-#include <sstream>
+#include "iostream"
+#include "sstream"
 
 using namespace std;
 
